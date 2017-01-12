@@ -1,0 +1,20 @@
+/**app.wxss**/
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption,figure, footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video {margin:0;padding:0;border:0;outline:0;}
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary {display:block;}
+html, body{height: 100%;width: 100%;font:normal 500 100%/1.45 "Microsoft Yahei";position:relative;background-color: #fff;}
+input, select,button {vertical-align:middle; outline:none; font-family: "Microsoft Yahei";}
+table {border-collapse:collapse;border-spacing:0;}
+a{ text-decoration:none; outline:none;}
+a:visited,a:active{ text-decoration:none;}
+i{ margin-right:5rpx;text-decoration: none;}
+li{ list-style:none;}
+
+/*.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} */

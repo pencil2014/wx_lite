@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container" bindtouchend="end" bindtouchstart="start">
+  <view  class="newsinfo" bindtap="gotoLink"   wx:for="{{newsList}}" wx:key="{{item.ctime}}">
+    <image class="newsinfo-avatar" src="{{item.picUrl}}" ></image>
+    <text class="newsinfo-title">{{item.title}}</text>
+    <view class="newsinfo-auth">
+      <text class="newsinfo-description">{{item.description}}</text>
+      <text class="newsinfo-ctime">{{item.ctime}}</text>
+    </view>
+  </view>
+</view>
+

@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container" bindtouchend="end" bindtouchstart="start">
+  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="18" show-location  style="width: 100%; height: 100%;">
+  </map>
+</view>

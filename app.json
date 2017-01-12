@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/history/history",
+    "pages/joke/joke",
+    "pages/wechat/wechat",
+    "pages/map/map",
+    "pages/canvas/canvas"
+  ],
+  "tabBar": {
+    "selectedColor": "#09bb07",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "新闻"
+    }, 
+    {
+      "pagePath": "pages/wechat/wechat",
+      "text": "微信"
+    },
+    {
+      "pagePath": "pages/history/history",
+      "text": "历史"
+    },
+    {
+      "pagePath": "pages/canvas/canvas",
+      "text": "涂鸦"
+    },
+    {
+      "pagePath": "pages/map/map",
+      "text": "地图"
+    }]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f79d00",
+    "navigationBarTitleText": "科技头条",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true
+  }
+}

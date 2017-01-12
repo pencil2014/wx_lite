@@ -1,0 +1,3 @@
+/**history.wxss**/
+page{height: 100%;}
+.container{margin: 0;padding: 0; height: 100%; }

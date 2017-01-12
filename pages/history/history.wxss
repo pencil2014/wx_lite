@@ -1,0 +1,6 @@
+/**history.wxss**/
+.container{margin: 0;padding: 0;}
+.history-title{font-size: 18pt;font-weight: bold;margin: 10pt auto 10pt 20pt; display: block;text-align: left;}
+.history-info{text-align: left; padding: 5pt 20pt;}
+.history-description{font-size: 11pt; font-weight: bold; display: block;}
+.history-ctime{font-size: 10pt;color: #999;}

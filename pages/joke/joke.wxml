@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container" bindtouchend="end" bindtouchstart="start">
+  <view  wx:for="{{newsList}}" wx:key="{{item.id}}">
+    <view  class="joke-info" >
+        <text class="joke-description">{{item.content}}</text>
+    </view>
+    <text class="joke-title">—— {{item.mrname}}</text>
+  </view> 
+  <view  wx:for="{{question}}" wx:key="{{item.id}}" class="question">
+    <text class="question-title">提问：</text>
+    <text class="question-description">{{item.quest}}</text>
+    <text class="question-title">回答: </text>
+    <text class="question-answer">{{item.result}} </text>
+  </view> 
+</view>

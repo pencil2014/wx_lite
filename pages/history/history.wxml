@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container" bindtouchend="end" bindtouchstart="start">
+  <text class="history-title">历史上的今天</text>
+  <view  class="history-info"  wx:for="{{newsList}}" wx:key="{{item.lsdate}}">
+    <text class="history-description">{{index+1}}、{{item.title}}</text>
+    <text class="history-ctime">{{item.lsdate}}</text>
+  </view>
+</view>
