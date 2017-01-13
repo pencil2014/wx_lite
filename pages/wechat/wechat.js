@@ -25,7 +25,7 @@ Page({
     var dis = endX - this.data.startX
     if( dis > 100){
         wx.switchTab({
-          url: '../history/history'
+          url: '../video/video'
         })
     } 
     if(-dis > 100) {

@@ -4,7 +4,7 @@ Page({
     color : '#cc0033' //画笔颜色默认值
   },
   startX: 0, //保存X坐标轴变量
-  startY: 0, //保存X坐标轴变量
+  startY: 0, //保存Y坐标轴变量
   isClear : false, //是否启用橡皮擦标记
   //手指触摸动作开始
   touchStart: function (e) {

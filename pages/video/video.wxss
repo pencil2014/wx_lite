@@ -1,0 +1,6 @@
+/**history.wxss**/
+page{height: 100%;}
+.container{margin: 0;padding: 0; height: 100%; }
+.video-title{ display: block; margin: 20pt; text-align: center; font-weight: bold;}
+.video-cnt{margin: 20pt auto; display: block;}
+.video-btn{ margin:20pt;}

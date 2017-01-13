@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container" bindtouchend="end" bindtouchstart="start">
+  <video id="myVideo" src="{{src}}"   controls autoplay="true" class="video-cnt" ></video>
+  <button bindtap="bindButtonTap" type="primary" class="video-btn">获取视频</button>
+</view>

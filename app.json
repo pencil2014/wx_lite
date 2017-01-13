@@ -5,30 +5,42 @@
     "pages/joke/joke",
     "pages/wechat/wechat",
     "pages/map/map",
-    "pages/canvas/canvas"
+    "pages/canvas/canvas",
+    "pages/video/video"
   ],
   "tabBar": {
+    "color": "#999",
     "selectedColor": "#09bb07",
-    "borderStyle": "white",
+    "borderStyle": "black",
     "list": [{
       "pagePath": "pages/index/index",
-      "text": "新闻"
+      "text": "新闻",
+      "iconPath": "images/1.png",
+      "selectedIconPath": "images/1-1.png"
     }, 
     {
       "pagePath": "pages/wechat/wechat",
-      "text": "微信"
+      "text": "微信",
+      "iconPath": "images/2.png",
+      "selectedIconPath": "images/2-1.png"
     },
     {
-      "pagePath": "pages/history/history",
-      "text": "历史"
+      "pagePath": "pages/video/video",
+      "text": "视频",
+      "iconPath": "images/3.png",
+      "selectedIconPath": "images/3-1.png"
     },
     {
       "pagePath": "pages/canvas/canvas",
-      "text": "涂鸦"
+      "text": "涂鸦",
+      "iconPath": "images/4.png",
+      "selectedIconPath": "images/4-1.png"
     },
     {
       "pagePath": "pages/map/map",
-      "text": "地图"
+      "text": "地图",
+      "iconPath": "images/5.png",
+      "selectedIconPath": "images/5-1.png"
     }]
   },
   "window":{
