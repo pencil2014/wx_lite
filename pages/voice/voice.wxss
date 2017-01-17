@@ -1,0 +1,4 @@
+/**index.wxss**/
+page{height: 100%;}
+.container{margin: 0;padding: 0;height: 100%;}
+.system-btn{margin: 20pt;}

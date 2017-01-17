@@ -33,12 +33,12 @@ Page({
     var dis = endX - this.data.startX
     if( dis > 100){
         wx.switchTab({
-          url: '../canvas/canvas'
+          url: '../voice/voice'
         })
     } 
     if(-dis > 100) {
       wx.switchTab({
-          url: '../wechat/wechat'
+          url: '../system/system'
         })
     }
   },

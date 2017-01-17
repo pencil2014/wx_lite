@@ -1,0 +1,9 @@
+<!-- audio.wxml -->
+<view class="container" bindtouchend="end" bindtouchstart="start">
+    <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls="{{true}}" loop="{{false}}" class="myAudio"></audio>
+
+    <button type="primary" bindtap="audioPlay" class="audio-btn">播放</button>
+    <button type="primary" bindtap="audioPause"class="audio-btn">暂停</button>
+    <button type="primary" bindtap="audio14" class="audio-btn">设置当前播放时间为14秒</button>
+    <button type="primary" bindtap="audioStart" class="audio-btn">回到开头</button>
+</view>

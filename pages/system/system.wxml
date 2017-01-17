@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container" bindtouchend="end" bindtouchstart="start">
+  <text class="system-model">手机型号：{{system.model}}</text>
+  <text class="system-model">设备像素比：{{system.pixelRatio}}</text>
+  <text class="system-model">微信语言：{{system.language}}</text>
+  <text class="system-model">微信版本：{{system.version}}</text>
+  <text class="system-model">操作系统版本：{{system.system}}</text>
+  <text class="system-model">客户端平台：{{system.platform}}</text>
+  <text class="system-model">网络状态：{{networkType }}</text>
+  <button bindtap="bindCall" type="primary" class="system-btn">拨打电话</button>
+  <view class="system-scan">
+    <button bindtap="bindScan" type="primary" class="system-btn">扫码</button>
+    <text class="system-model">扫码类型：{{scan.scanType }}</text>
+    <text class="system-model">扫码字符：{{scan.charSet }}</text>
+  </view>
+</view>
+

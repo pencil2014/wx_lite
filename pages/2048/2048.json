@@ -1,0 +1,7 @@
+{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f79d00",
+    "navigationBarTitleText": "微信游戏",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": false
+}
